@@ -52,13 +52,13 @@ if MN [4] == true then MN4 () end
 end
 end
 function MN1
-YuzasifXd = load (gg.makeRequest('https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Mc.lua')gg.alert(" internete erişim ver amk").content)
+YuzasifXd = load (gg.makeRequest('https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Mc.lua').content)
   pcall(YuzasifXd)
 function MN2()
-Xd = load (gg.makeRequest('https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Rblox.lua')gg.alert(" internete erişim ver amk").content)
+Xd = load (gg.makeRequest('https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Rblox.lua').content)
   pcall(Xd)
 function MN3()
-Xd = load (gg.makeRequest('https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Sw.lua')gg.alert(" internete erişim ver amk").content)
+Xd = load (gg.makeRequest('https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Sw.lua').content)
   pcall(Xd)
 
 function MN4()
