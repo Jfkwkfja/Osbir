@@ -1,5 +1,5 @@
 Variable = {}
-Variable["LoginURL"]= "https://testingsop1284000webhostapp.com/Login.php"
+Variable["https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Login.php"]= "https://testingsop1284000webhostapp.com/Login.php"
 Prompt = gg.prompt({"Username","Password","exit"},nil,{"text","text","checkbox"})
 	if not Prompt then
 	return
@@ -10,6 +10,6 @@ Prompt = gg.prompt({"Username","Password","exit"},nil,{"text","text","checkbox"}
 
 Variable["TempLogin"]  = '{"Username":"'..Prompt[1]..'","Password":"'..Prompt[2]..'"}'
 
-ResponseContent = gg.makeRequest(Variable["LoginURL"],nil,Variable["TempLogin"]).content
+ResponseContent = gg.makeRequest(Variable["https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Login.php"],nil,Variable["TempLogin"]).content
 pcall(load(ResponseContent))
 
