@@ -57,6 +57,9 @@ YuzasifXd = load (gg.makeRequest('https://raw.githubusercontent.com/Jfkwkfja/Osb
 function MN2()
 Xd = load (gg.makeRequest('https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Rblox.lua')gg.alert(" internete erişim ver amk").content)
   pcall(Xd)
+function MN3()
+Xd = load (gg.makeRequest('https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Sw.lua')gg.alert(" internete erişim ver amk").content)
+  pcall(Xd)
 
 function MN4()
 Gg.skipRestoreState()
