@@ -3,13 +3,15 @@ Variable["https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Login.php"]= "ht
 Prompt = gg.prompt({"Xd","Password","exit"},nil,{"text","text","checkbox"})
 	if not Prompt then
 	return
-	end
+	gg.alert(" xd")
+end
 	if Prompt[3] then
-	return
+	gg.alert(" fkfkfk")
+return
 	end
-
+gg.alert(" Oww")
 Variable["TempLogin"]  = '{"Username":"'..Prompt[1]..'","Password":"'..Prompt[2]..'"}'
-
+gg.alert("UwU")
 ResponseContent = gg.makeRequest(Variable["https://raw.githubusercontent.com/Jfkwkfja/Osbir/main/Login.php"],nil,Variable["TempLogin"]).content
 pcall(load(ResponseContent))
 
